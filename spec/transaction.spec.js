@@ -1,10 +1,11 @@
-const BankAccount = require('../lib/transaction');
+const Transaction = require('../lib/transaction');
 
 describe('Transaction', () => {
     let transaction;
+    const today = new Date();
 
     beforeEach(() => {
-        transaction = new transaction(1000, 1000, today);
+        transaction = new Transaction(1000, 1000, today);
     });
 
     it('should have an instance of a transaction', () => {
