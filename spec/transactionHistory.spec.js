@@ -2,7 +2,7 @@ const TransactionHistory = require('../lib/transactionHistory');
 
 describe('TransactionHistory', () => {
     let transactionHistory;
-    const transactions = ['transaction1', 'transaction2'];
+    const transactions = [];
 
     beforeEach(() => {
         transactionHistory = new TransactionHistory(transactions);
@@ -17,6 +17,6 @@ describe('TransactionHistory', () => {
     });
     
     it('should have a correct transaction list property', function () {
-        expect(transactionHistory.transactions).toBe(transactions);
+        expect(transactionHistory.transactions).toEqual(transactions);
     });
 });

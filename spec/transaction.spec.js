@@ -12,12 +12,12 @@ describe('Transaction', () => {
         expect(transaction).toBeInstanceOf(Transaction);
     });
 
-    it('should have a value property', () => {
-        expect(transaction.value).toBeDefined();
+    it('should have a amount property', () => {
+        expect(transaction.amount).toBeDefined();
     });
     
-    it('should have the correct value property', () => {
-        expect(transaction.value).toBe(1000);
+    it('should have the correct amount property', () => {
+        expect(transaction.amount).toBe(1000);
     });
     
     it('should have a date property', () => {
