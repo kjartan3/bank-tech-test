@@ -47,6 +47,14 @@ To use the bank account functionality, follow these steps:
 
 5. The console will log the results of your actions, such as successful deposits, withdrawals, and the current account balance.
 
+## Project Model
+
+<img width="887" alt="Screenshot 2023-06-15 at 17 08 01" src="https://github.com/kjartan3/bank-tech-test/assets/124696609/1a6018d8-b79f-43a9-822a-0133b644158c">
+
+## Console Output
+
+<img width="511" alt="Screenshot 2023-06-15 at 16 50 06" src="https://github.com/kjartan3/bank-tech-test/assets/124696609/ccbaa277-1434-48d3-9418-60adb79c055e">
+
 ## Project Structure
 
 The project consists of the following JavaScript files:
