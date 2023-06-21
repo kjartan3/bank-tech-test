@@ -8,6 +8,7 @@ This is a JavaScript project that simulates a simple bank account. It allows use
 2. Make sure you have Node.js installed.
 3. Open a terminal and navigate to the project's root directory.
 4. Install the project dependencies by running the following command:
+
    ```
    npm install
    ```
